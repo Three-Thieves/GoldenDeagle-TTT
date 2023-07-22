@@ -10,7 +10,11 @@ using TerrorTown;
 namespace GoldDeagle;
 
 [Library("ttt_weapon_goldendeagle"), HammerEntity]
+
+// Title is what shows up in the Shop and Inventory, Category is used for where it is in the Hammer entity list, this isn't used for the shop
 [Title("Golden Deagle"), Category("Weapons")]
+
+// This tells the game we want this gun in the shop, and what category and price it is.
 [DetectiveBuyable("Weapons", 1)]
 [EditorModel("models/weapons/w_golden_deagle.vmdl")]
 public class GoldenDeagle : Gun

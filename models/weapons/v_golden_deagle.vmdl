@@ -19,7 +19,7 @@
 							},
 							{
 								from = "d-eagle.vmat"
-								to = "models/weapons/v_deagle/tt_deagle.vmat"
+								to = "models/weapons/v_golden_deagle/tt_golden_deagle.vmat"
 							},
 						]
 						use_global_default = false
